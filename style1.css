@@ -1,0 +1,108 @@
+html{
+    background-image: url(pexels-bala-py-763103.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-style: italic;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+     
+}
+
+#all{
+    display: flex;
+    margin-top: 1%;
+   
+}
+
+#project{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+     grid-row-gap: 10px;
+    padding: 2%;
+    text-align: center;
+    background-color: rgb(52, 52, 52);
+    width: 250%;
+    height: 100vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 80%;
+    border-radius: 5px;
+     
+    
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#pr:hover::before{
+    width: 100%;
+    background-color: black;
+}
+
+#pr:hover{
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+    background-color:  rgb(29, 29, 29);;
+    box-shadow: 0 0 15px #ffffff;
+  transition: box-shadow 0.3s ease-in-out;
+
+   animation: pulse 0.7s infinite;
+
+  
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.01); }
+  100% { transform: scale(1); }
+}
+
+#pr{
+    
+    
+    background-color: black;
+    width: 100%;
+    height: auto;
+     
+    border-radius: 30px;
+    
+    
+     padding: 20px;  
+    box-sizing: border-box;
+    font-size: xxx-large;
+    
+}
+
+
+#back{
+    background-color: gray;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+#back:hover::before{
+    width: 100%;
+    background-color: black;
+}
+
+#back:hover{
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+    background-color:  rgb(29, 29, 29);;
+    box-shadow: 0 0 15px #ffffff;
+  transition: box-shadow 0.3s ease-in-out;
+
+   animation: pulse 0.7s infinite;
+
+  
+}
